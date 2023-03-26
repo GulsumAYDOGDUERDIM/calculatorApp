@@ -11,7 +11,7 @@
             Console.Write("Lütfen bir işlem seçiniz(+) (-) (*) (/) (%) :  ");
             string islem = Console.ReadLine();
 
-            Console.Write("ikinci sayıyı  giriniz: ");
+            Console.Write("ikinci sayıyı  giriniz : ");
             double sayi2=double.Parse(Console.ReadLine());
 
             double sonuc = 0;
