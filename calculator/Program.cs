@@ -13,6 +13,8 @@
 
             Console.Write("ikinci sayıyı giriniz: ");
             int sayi2=int.Parse(Console.ReadLine());
+
+
             switch (islem)
             {
                 case "+":
@@ -24,6 +26,9 @@
                     break;
                 case "*":
                     Console.WriteLine(sayi1 * sayi2);
+                    break;
+                case "/":
+                    Console.WriteLine(sayi1 / sayi2);
                     break;
             }
         }
