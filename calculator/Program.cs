@@ -17,24 +17,11 @@
 
             switch (islem)
             {
-                case "+":
-                    sonuc = sayi1 + sayi2;
-                    
-                    break;
-
-                case "-":
-                    sonuc = sayi1 - sayi2;
-                    break;
-                case "*":
-                    sonuc = sayi1 * sayi2;
-                    break;
-                case "/":
-                    sonuc=sayi1 / sayi2;
-                    break;
-                case "%":
-                    sonuc = sayi1 % sayi2;
-                    break;
-
+                case "+":sonuc = sayi1 + sayi2;  break;
+                case "-":sonuc = sayi1 - sayi2;  break;
+                case "*":sonuc = sayi1 * sayi2   break;
+                case "/":sonuc=sayi1 / sayi2;    break;
+                case "%": sonuc = sayi1 % sayi2; break;
             }
             Console.WriteLine(sayi1+" "+islem+" "+sayi2+" = "+sonuc);
         }
